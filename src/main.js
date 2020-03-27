@@ -9,8 +9,8 @@ Vue.component(Header.name,Header)
 
 
 // 导入 mui
-import './mui-master/dist/css/mui.min.css'
-
+import './mui-master/css/mui.min.css'
+import './mui-master/css/icons-extra.css'
 
 
 // 导入组件 app 
