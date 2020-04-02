@@ -7,6 +7,12 @@ import search from './components/tabbar/Search.vue'
 import shopcar from './components/tabbar/Shopcar.vue'
 import newslist from './components/news/NewsList.vue'
 import newsinfo from './components/news/NewsInfo.vue'
+import photolist from './components/photos/photoList.vue'
+import photoinfo from './components/photos/photoInfo.vue'
+import goodslist from './components/goods/GoodsList.vue'
+import goodsinfo from './components/goods/GoodsInfo.vue'
+import goodsdesc from './components/goods/GoodsDesc.vue'
+import goodscomment from './components/goods/GoodsComment.vue'
 //创建一个陆游对象
 const router = new VueRouter({
     routes: [
@@ -18,6 +24,12 @@ const router = new VueRouter({
         {path:'/shopcar',component:shopcar},
         {path:'/home/newslist',component:newslist},
         {path:'/home/newsinfo/:id',component:newsinfo},
+        {path:'/home/photolist',component:photolist},
+        {path:'/home/photolist/info/:id',component:photoinfo},
+        {path:'/home/goodslist',component:goodslist},
+        {path:'/home/goodsinfo/:id',component:goodsinfo,name:'goodsinfo'},
+        {path:'/home/goodsdesc/:id',component:goodsdesc,name:'goodsdesc'},
+        {path:'/home/goodscomment/:id',component:goodscomment,name:'goodscomment'}
 
         
     ],
