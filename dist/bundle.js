@@ -39220,7 +39220,7 @@ exports.default = {
             this.$store.commit('removeFormCar', id);
         },
         selectedChanged: function selectedChanged(id, val) {
-            console.log(id + '----' + val);
+            // console.log(id +'----' +val)
             this.$store.commit('updateGoodsSelected', { id: id, selected: val });
         }
     },
@@ -39290,7 +39290,7 @@ exports.default = {
 
 	methods: {
 		getselect: function getselect() {
-			console.log(this.$refs.num.value);
+			// console.log(this.$refs.num.value)
 			this.$store.commit('updateGoodsInfo', {
 				id: this.goodsid,
 				count: this.$refs.num.value
@@ -40232,7 +40232,7 @@ exports.default = {
 
 	methods: {
 		getselect: function getselect() {
-			console.log(this.$refs.num.value);
+			// console.log(this.$refs.num.value)
 			this.$emit('getselectCount', parseInt(this.$refs.num.value));
 		}
 	},
@@ -44791,9 +44791,7 @@ var render = function() {
           1
         )
       ])
-    ]),
-    _vm._v(" "),
-    _c("p", [_vm._v(" " + _vm._s(_vm.$store.getters.getGoodsSelected))])
+    ])
   ])
 }
 var staticRenderFns = []
@@ -45317,7 +45315,7 @@ if(false) {
 /***/ (function(module, exports) {
 
 module.exports =
-	"\n.mui-slider[data-v-7e616cf2] {\n  touch-action: none;\n}\n.photo-list[data-v-7e616cf2] {\n  list-style: none;\n  margin: 0;\n  padding: 10px;\n  padding-bottom: 0;\n}\n.photo-list li[data-v-7e616cf2] {\n    background-color: #ccc;\n    text-align: center;\n    margin-bottom: 10px;\n    box-shadow: 0 0 9px #999;\n    position: relative;\n}\n.photo-list li img[data-v-7e616cf2] {\n      width: 100%;\n      vertical-align: middle;\n}\n.photo-list li .info[data-v-7e616cf2] {\n      color: white;\n      text-align: left;\n      position: absolute;\n      bottom: 0;\n      max-height: 80px;\n      margin: 0 5px 5px;\n      background-color: rgba(0, 0, 0, 0.3);\n}\n.photo-list li .info .info-title[data-v-7e616cf2] {\n        font-size: 14px;\n}\n.photo-list li .info .info-body[data-v-7e616cf2] {\n        font-size: 13px;\n}\n.photo-list li img[lazy=\"loading\"][data-v-7e616cf2] {\n      width: 40px;\n      height: 300px;\n      margin: auto;\n}\n";
+	"\n.mui-slider[data-v-7e616cf2] {\n  touch-action: none;\n}\n.photo-list[data-v-7e616cf2] {\n  list-style: none;\n  margin: 0;\n  padding: 10px;\n  padding-bottom: 60px;\n}\n.photo-list li[data-v-7e616cf2] {\n    background-color: #ccc;\n    text-align: center;\n    margin-bottom: 10px;\n    box-shadow: 0 0 9px #999;\n    position: relative;\n}\n.photo-list li img[data-v-7e616cf2] {\n      width: 100%;\n      vertical-align: middle;\n}\n.photo-list li .info[data-v-7e616cf2] {\n      color: white;\n      text-align: left;\n      position: absolute;\n      bottom: 0;\n      max-height: 80px;\n      margin: 0 5px 5px;\n      background-color: rgba(0, 0, 0, 0.3);\n}\n.photo-list li .info .info-title[data-v-7e616cf2] {\n        font-size: 14px;\n}\n.photo-list li .info .info-body[data-v-7e616cf2] {\n        font-size: 13px;\n}\n.photo-list li img[lazy=\"loading\"][data-v-7e616cf2] {\n      width: 40px;\n      height: 300px;\n      margin: auto;\n}\n";
 
 /***/ }),
 /* 302 */

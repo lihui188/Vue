@@ -74,7 +74,7 @@ export default {
   list-style: none;
   margin: 0;
   padding: 10px;
-  padding-bottom: 0;
+  padding-bottom: 60px;
   li {
     background-color: #ccc;
     text-align: center;

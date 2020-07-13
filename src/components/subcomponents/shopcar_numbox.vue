@@ -22,7 +22,7 @@ export default {
 	},
 	methods:{
 		getselect(){
-            console.log(this.$refs.num.value)
+            // console.log(this.$refs.num.value)
             this.$store.commit('updateGoodsInfo',{
                 id:this.goodsid,
                 count:this.$refs.num.value

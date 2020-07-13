@@ -22,7 +22,7 @@ export default {
 	},
 	methods:{
 		getselect(){
-			console.log(this.$refs.num.value)
+			// console.log(this.$refs.num.value)
 			this.$emit('getselectCount',parseInt(this.$refs.num.value));
 		}
 	},

@@ -30,7 +30,7 @@
         </div>
       </div>
     </div>
-   <p> {{$store.getters.getGoodsSelected}}</p>
+   <!-- <p> {{$store.getters.getGoodsSelected}}</p> -->
   </div>
 </template>
 
@@ -66,7 +66,7 @@ export default {
         this.$store.commit('removeFormCar',id)
       },
       selectedChanged(id,val){
-        console.log(id +'----' +val)
+        // console.log(id +'----' +val)
         this.$store.commit('updateGoodsSelected',{id,selected:val})
       }
   },
